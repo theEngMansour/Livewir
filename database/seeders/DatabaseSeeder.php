@@ -19,6 +19,6 @@ class DatabaseSeeder extends Seeder
             unlink($image);
         } */
        \App\Models\User::factory(10)->create();
-       \App\Models\Ad::factory(20)->create();
+       \App\Models\Post::factory(20)->create();
     }
 }
